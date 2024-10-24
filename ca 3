@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aaa.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>GetFit's</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="#home" id="homes" onclick="home()">HOME</a>
+                    <a href="submit.html" id="programs" onclick="program()" target="_blank">PROGRAM</a>
+                    <a href="plan.html" id="plans" onclick="plan()" target="_blank">PLAN</a>
+                    <a href="blog.html" id="blogs" onclick="blog()" target="_blank">BLOG</a>
+                    <a href="contact.html" id="contacts" onclick="contact()" target="_blank">CONTACT US</a>
+                    <!-- <a href="#trainer" id="trainer" onclick="trainer()">TRAINER</a> -->
+                    <button>Join Now</button>
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- main -->
+
+        <div class="home" id="home">
+            <div class="homeText">
+                <h1>Commit To Be Fit</h1>
+                <h3 style="font-size: 30px;">Once You See Result, It Becomes An Addiction</h3>
+                <p style="font-size: 30px;">The company itself as a very successful company. <br>
+                    Another fault itself.Others,the fault itself.</p>
+                <button>Join Now</button>
+            </div>
+            <img src="gym.jpg" id="image-1" alt="jpg">
+        </div>
+        <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+             }
+            body{
+                background-color:rgb(5, 5, 5);
+                font-family: 'Roboto', sans-serif;
+                color: white;
+            }
+            nav{
+                position: fixed;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                background-color:rgb(82, 180, 21);
+                padding: 22px;
+                box-shadow: 0px 2px 6px 2px rgb(239, 242, 242);
+                color: white;
+            
+            
+            }
+            nav ul li a{
+                margin-inline: 22px;
+                text-decoration: none;
+                color: white;
+            }
+            ul li{
+                list-style: none;
+            }
+            nav ul{
+                margin-right: 63px;
+                margin-top: 6px;
+            }
+            .logo{
+                font-size: 25px;
+                margin-left: 33px;
+                color: rgb(250, 42, 42);
+                text-shadow: 2px 2px white;
+               
+            }
+            ul li button{
+                width: 100px;
+                height: 33px;
+                background-color: rgb(8, 69, 8);
+                border: none;
+                color: white;
+                font-size: 18px;
+            }
+             ul li button:hover{
+                border: 2px solid white;
+                background-color: white;
+                color: rgb(11, 12, 11);
+                cursor: pointer;
+             }
+              ul li a:hover{
+                color: rgb(31, 12, 205);
+                border-bottom: 2px solid rgb(28, 20, 251); ;
+            
+              }
+            
+              /* main */
+            
+              .home{
+                display: flex;
+                justify-content: center;
+              }
+              .home img{
+                width: 40%;
+                margin-top: 150px;
+                margin-left: 100px;
+              }
+              .home .homeText{
+                margin-top: 200px;
+                margin-left: 44px;
+              }
+              .homeText h1{
+                font-size: 85px;
+                color: rgb(55, 248, 55);
+              }
+              .homeText h3{
+                margin-top: 22px;
+                font-size: 22px;
+              }
+              .homeText p{
+                margin-top: 22px;
+                color: silver;
+              }
+              .homeText button{
+                margin-top: 22px;
+                font-size: 22px;
+                width: 140px;
+                height: 40px;
+                background-color: green;
+                color: white;
+                border: none;
+              }
+              .homeText button:hover{
+                border: 2px solid white;
+                background-color: transparent;
+                color: rgb(23, 252, 23);
+            
+              }
+        </style>
+
+
+
+
+
+          <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+            <!-- programs -->
+
+            <div class="program" id="program">
+                <div class="head">
+                    <h1>Our <span>Program's</span></h1>
+                </div>
+                <div class="ourProgram">
+                    <div class="crd1">
+                        <img src="male-dancer.jpg" alt="" width="500px" height="700px">
+                        <center><h1>Dance</h1></center>
+                    </div>
+                    <div class="crd2">
+                        <img src="cardio.jpg" alt="" width="500px" height="700px">
+                       <center><h1>Cardio</h1></center> 
+                    </div>
+                    <div class="crd3">
+                        <img src="heavy weight.webp" alt="" width="500px" height="700px">
+                        <center><h1>Heavy Weight</h1></center>
+                    </div>
+                </div>
+            </div>
+            </body>
+<style>
+    
+  /* program */
+
+  body{
+    background-color: black;
+  }
+  
+  
+  .head{
+    text-align: center;
+    padding: 95px;
+    font-size: xx-large;
+    background-color: aqua;
+  }
+  .head span{
+    color: rgb(37, 244, 37);
+  }
+  .ourProgram{
+    display: flex;
+    justify-content: center;
+  }
+  .ourProgram .crd{
+    margin-inline: 3px;
+    text-align: center;
+  }
+  .ourProgram .crd img:hover{
+    width: 500px;
+    height: 200px;
+  }
+  .crd1{
+    background-color: green;
+  }
+ .crd2{
+  background-color: green;
+
+ }
+ .crd3{
+  background-color: green;
+ }
+
+
+
+    <!-- plans -->
+
+ <div class="plan" id="plan">
+  <div class="head">
+     <Center> <h1 style="font-size: 100px;">Our <span>Plan's</span></h1></Center> 
+   
+  </div>
+  <div class="ourPlan">
+      <div class="card">
+          <i class="fa-solid fa-bookmark"></i>
+          <h3>Basic Package</h3>
+          <h1>30 Day in 1000</h1>
+          <p>No Personal Trainer</p>
+          <p>Valid for 30 Days</p>
+          <p>Full Day valid</p>
+          <p>A full day's worth of customer service,himself.</p>
+          <p>Thank you very much.</p>
+          <button>Buy Plan</button>
+
+      </div>
+      <div class="card">
+          <i class="fa-solid fa-diamond"></i>
+          <h3>Premium Package</h3>
+          <h1>30 Day in 2000</h1>
+          <p>Personal Trainer</p>
+          <p>Valid for 30 Days</p>
+          <p>Full Day valid</p>
+          <p>A personal trainer with you for a month.</p>
+          <p>Thank you very much.</p>
+          <button>Buy Plan</button>
+
+
+      </div>
+      <div class="card">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          <h3>Diamond Package</h3>
+          <h1>30 Day in 3000</h1>
+          <p>Personal Trainer</p>
+          <p>Valid for 30 Days</p>
+          <p>Full Day valid</p>
+          <p>A personal trainer with one month suppliments.</p>
+          <p>Thank you very munch</p>
+          <button>Buy Plan</button>
+
+
+      </div>
+  </div>
+</div>
+
+<style>
+  
+  /* plan */
+
+  body{
+    background-color:blue;
+  }
+  .ourPlan{
+    display: flex;
+    justify-content: center;
+  }
+  .ourPlan .card{
+    width: 400px;
+    height: 500px;
+    padding: 4px;
+    background-color: rgb(15, 129, 160);
+    text-align: center;
+    margin-inline: 22px;
+  }
+  .card i{
+    font-size: 40px;
+    margin-top: 22px;
+    color: rgb(0, 255, 26);
+  }
+  .card h3{
+    margin-top: 22px;
+    color: rgb(58, 249, 58);
+
+  }
+  .card h1{
+    margin-top: 22px;
+    color: rgb(24, 255, 24);
+  }
+  .card p{
+    margin-top: 12px;
+    color: silver;
+    font-size: larger;
+  }
+  .card button{
+    margin-top: 22px;
+    width: 128px;
+    height: 38px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+  }
+  .card button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(35, 252, 35);
+    cursor: pointer;
+  }
+  .card:hover{
+    transition: 0.7s ease;
+    width: 310px;
+    height: 440px;
+    background-color: black;
+    font-size: 19px;
+    cursor: pointer;
+
+  }
+
+</style>
+
+
+
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- blog -->
+
+     <div class="blog" id="blog">
+        <div class="head">
+           <center> <h1 style="font-size: 100px;">Our <span>Blog's</span></h1></center> 
+        </div>
+        <div class="ourBlog">
+            <div class="blogCard">
+                <img src="chest.jpg" alt="">
+                <div class="blogText">
+                    <h2>How To Build Chest ?</h2>
+                    <p>This exercise focus on building your upper,lowerand inner chest.</p>
+                    <a href="https://www.menshealth.com/fitness/a19547186/best-chest-exercises/">Read More</a>
+                </div>
+            </div>
+            <div class="blogCard">
+                <img src="bicep.jpg" alt="">
+                <div class="blogText">
+                    <h2>How To Build Biceps ?</h2>
+                    <p>This exercise majourly focus your deltoid, forearms and triceps.</p>
+                    <a href="https://www.menshealth.com/uk/building-muscle/a755394/10-quick-steps-how-to-get-big-biceps-fast/">Read More</a>
+                </div>
+            </div>
+            <div class="blogCard">
+                <img src="back.jpg" alt="">
+                <div class="blogText">
+                    <h2>How To Build Back ?</h2>
+                    <p>This exercise focusig on upper and lower back and rear delts.</p>
+                    <a href="https://www.menshealth.com/uk/building-muscle/a759269/10-best-back-exercises-for-building-muscle/">Read More</a>
+                </div>
+            </div>
+         
+            </div>
+        </div>
+    </div>
+    <style>
+         /* blog */
+
+         body{
+          background-color: red;
+         }
+  .ourBlog{
+    display: flex;
+    justify-content: center;
+   
+  }
+  .ourBlog .blogCard{
+    width: 700px;
+    height: 800px;
+    margin-inline: 22px;
+    background-color: red;
+     
+  }
+  .blogCard img{
+    width: 700px;
+    height:630px;
+  }
+  .blogCard p{
+    margin-top: 22px;
+    background-color: yellow;
+    color:black;
+    font-size: x-large;
+  
+
+  }
+  .blogText a{
+    text-decoration: none;
+    width: 90px;
+    padding: 11px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 90px;
+    cursor: pointer;
+   
+
+  }
+  .blogText{
+    margin-top: 11px;
+    margin-left: 6px;
+  }
+
+    </style>
+    
+</body>
+</html>
+
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- contact -->
+
+        <div class="contact" id="contact">
+            <div class="head">
+               <center><h1 style="font-size: 100px;">Let's <span>Begin ...</span> </h1></center>
+            </div>
+            <div class="contactPage">
+                <div class="contactText">
+                    <h1>Let's Go...</h1>
+                    <h2>Start Your Journey Now!</h2>
+                </div>
+                <img src="girl.webp" alt="">
+            </div>
+
+            <div class="contactUs">
+                <h1 style="font-size: 75px;">Contact Us</h1>
+                <input type="text" placeholder="Enter Your Name" value="" id="name"> <br>
+                <input type="text" placeholder="Enter Your Number" value="" id="number"> <br>
+                <button onclick="submit()">Submit</button>
+
+            </div>
+        </div>
+
+        <!-- footer -->
+
+        <div class="footer" >
+            <div class="footerText">
+                <h2 style="font-size: 40px;">About us</h2>
+                <p style="font-size: 30px;">The company itself is to be very successful company.<br>
+                    With desire,pleasure,with necessity,and <br>
+                    with wisdom,because it is rough?The so-called<br>
+                    blissful pleassure do not escape from the<br>
+                    flight of pains.</p>
+               
+
+            </div>
+            <div class="footerText">
+                <h2 style="font-size: 40px;">Plans</h2>
+                <p style="font-size: 30px;">Transaarent</p>
+                <p style="font-size: 30px;">Account</p>
+                <p style="font-size: 30px;">Valid
+
+                </p>
+                <p>Ends</p>
+
+            </div>
+            <div class="footerText">
+                <h2 style="font-size: 40px;">Contact US</h2>
+                <p style="font-size: 30px;">Membership</p>
+                <p style="font-size: 30px;">Plan</p>
+                <p style="font-size: 30px;">Diamond Plan</p>
+                <p style="font-size: 30px;">Join Now</p>
+
+            </div>
+            <div class="footerText">
+                <h2 style="font-size: 40px;">Program</h2>
+                <p style="font-size: 30px;">Dance</p>
+                <p style="font-size: 30px;">Cardio</p>
+                <p style="font-size: 30px;">Intense Training</p>
+                <p style="font-size: 30px;">Power Lifting</p>
+
+            </div>
+        </div>
+
+   
+
+         
+    </div>
+    <script src="mjk.avif"></script>
+</body>
+</html>
+<style>
+     /* cantact */
+
+     body{
+      background-color: aqua;
+     }
+  .contactPage{
+    display: flex;
+    justify-content: center;
+  }
+  .contactText{
+    margin-left: 33px;
+    color: rgb(33, 249, 33);
+    margin-top: 130px;
+    font-size: 50px;
+  }
+  .contactPage img{
+    width: 700px;
+    height: 800px;
+    margin-left: 10px;
+  }
+  .contactUs{
+    text-align: center;
+    margin-top: 22px;
+  }
+  .contactUs input{
+    width: 300px;
+    padding: 8px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+  }
+  .contactUs button{
+    width: 365px;
+    height: 45px;
+    color: green;
+    border: none;
+    font-size: 22px;
+    background-color: rgb(41, 249, 41);
+    border-radius: 2px;
+    margin-top: 22px;
+  }
+  .contactUs button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(27, 246, 27);
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+  }
+  .footer .footerText{
+    margin-inline: 73px;
+    margin-top: 33px;
+  }
+  .footerText p{
+margin-top: 11px;
+color:green;
+  }
+  #image-1{
+    height: 500px;
+    width: 700px;
+    margin-left:120px;
+    margin-top:200px;
+
+  }
+</style>
+    
+</body>
+</html>
+       
